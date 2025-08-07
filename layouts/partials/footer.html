@@ -35,8 +35,7 @@ site.Copyright ( ne $license "zero" ) -}}
       </div>
       {{- end }}
     </div>
-    {{- end }} {{- else }} {{- if ne $license "none" }} {{- errorf "unknown %q
-    CC license specified in hugo.toml" $license -}} {{- end }} {{- end }}
+    {{- end }} {{- else }} {{- if ne $license "none" }} {{- errorf "unknown %q CC license specified in hugo.toml" $license -}} {{- end }} {{- end }}
   </div>
 
   {{- if default true site.Params.footer.showThemeCredit }}
